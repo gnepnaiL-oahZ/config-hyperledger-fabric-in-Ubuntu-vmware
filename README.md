@@ -71,8 +71,6 @@ sudo gedit /etc/docker/daemon.json
 }
 ```
 
-**重启**
-
 ## 安装 go1.12.4：
 
 把 go1.12.4.linux-amd64.tar.gz 复制到 Home 文件夹
@@ -113,9 +111,9 @@ export NVM_DIR="$HOME/.nvm"
 ##nvm end
 ```
 
-**重启**
-
 ## Fablic 安装：
+
+**重启**
 
 把 fabric.zip 复制到 Home 文件夹
 
