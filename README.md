@@ -35,7 +35,7 @@ sudo ntpdate cn.pool.ntp.org
 sudo cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 sudo hwclock --systohc
 ```
-重启
+**重启**
 
 ### 安装必要工具：
 ```sh
@@ -71,7 +71,7 @@ sudo gedit /etc/docker/daemon.json
 }
 ```
 
-重启
+**重启**
 
 ## 安装 go1.12.4：
 
@@ -113,7 +113,7 @@ export NVM_DIR="$HOME/.nvm"
 ##nvm end
 ```
 
-重启
+**重启**
 
 ## Fablic 安装：
 
