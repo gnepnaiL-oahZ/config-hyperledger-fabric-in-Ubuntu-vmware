@@ -75,7 +75,7 @@ sudo gedit /etc/docker/daemon.json
 
 ## 安装 go1.12.4：
 
-把 go...tar.gz 复制到 Home 文件夹
+把 go1.12.4.linux-amd64.tar.gz 复制到 Home 文件夹
 
 运行命令：
 ```sh
