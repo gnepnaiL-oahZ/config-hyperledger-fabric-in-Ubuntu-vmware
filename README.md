@@ -135,7 +135,7 @@ cd $GOPATH/src/github.com/hyperledger/fabric
 make release
 make docker
 
-cp $GOPATH/src/github.com/hyperledger/fabric/release/linux-amd64/bin/* /usr/local/bin
+sudo cp $GOPATH/src/github.com/hyperledger/fabric/release/linux-amd64/bin/* /usr/local/bin
 sudo chmod -R 775 /usr/local/bin/configtxgen
 sudo chmod -R 775 /usr/local/bin/configtxlator
 sudo chmod -R 775 /usr/local/bin/cryptogen
