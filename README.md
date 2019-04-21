@@ -1,8 +1,8 @@
 # 在虚拟机中的Ubuntu（v18.04）上配置 hyperledger fabric 开发环境
 
-##准备工作：
+## 准备工作：
 
-###更改源：
+### 更改源：
 
 ```
 sudo /etc/apt/sources.list
@@ -28,7 +28,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 sudo apt-get -y update
 ```
 
-###调整时区：
+### 调整时区：
 ```sh
 sudo apt install ntpdate
 sudo ntpdate cn.pool.ntp.org 
@@ -37,7 +37,7 @@ sudo hwclock --systohc
 ```
 重启
 
-###安装必要工具：
+### 安装必要工具：
 ```sh
 sudo apt install make
 sudo apt install gcc
@@ -46,7 +46,7 @@ sudo apt-get install tree
 sudo apt-get install jq
 ```
 
-##安装 docker：
+## 安装 docker：
 ```sh
 apt install docker.io
 apt install docker-compose
@@ -73,7 +73,7 @@ sudo gedit /etc/docker/daemon.json
 
 重启
 
-##安装 go1.12.4：
+## 安装 go1.12.4：
 
 把 go...tar.gz 复制到 Home 文件夹
 
@@ -96,8 +96,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ##golang end
 ```
 
-#######
-node.js v8.9.4 安装：
+## node.js v8.9.4 安装：
 
 运行命令：
 ```sh
@@ -116,7 +115,7 @@ export NVM_DIR="$HOME/.nvm"
 
 重启
 
-##Fablic 安装：
+## Fablic 安装：
 
 把 fabric.zip 复制到 Home 文件夹
 
