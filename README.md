@@ -39,6 +39,7 @@ sudo hwclock --systohc
 
 ### 安装必要工具：
 ```sh
+sudo apt install git
 sudo apt install make
 sudo apt install gcc
 sudo apt install curl
