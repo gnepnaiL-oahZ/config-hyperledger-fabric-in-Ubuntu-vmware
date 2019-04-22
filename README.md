@@ -49,8 +49,8 @@ sudo apt-get install jq
 
 ## 安装 docker：
 ```sh
-apt install docker.io
-apt install docker-compose
+sudo apt install docker.io
+sudo apt install docker-compose
 ```
 
 设置 docker 用户组：
