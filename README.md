@@ -5,7 +5,7 @@
 ### 更改源：
 
 ```
-sudo /etc/apt/sources.list
+sudo gedit /etc/apt/sources.list
 ```
 
 上面的命令会打开一个文本文件，删除所有内容，把下面的粘贴进去（不用之前搜到的源了，那个源安装curl时有问题）
