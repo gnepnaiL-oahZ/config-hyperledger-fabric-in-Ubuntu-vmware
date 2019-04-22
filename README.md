@@ -121,9 +121,9 @@ export NVM_DIR="$HOME/.nvm"
 依次运行命令：
 
 ```sh
-mkdir -p $GOPATH/src/github.com/hyperledger
+sudo mkdir -p $GOPATH/src/github.com/hyperledger
 cd $GOPATH/src/github.com/hyperledger
-unzip ~/fabric.zip > /dev/null
+sudo unzip ~/fabric.zip > /dev/null
 go get github.com/golang/protobuf/protoc-gen-go
 
 mkdir -p $GOPATH/src/github.com/hyperledger/fabric/build/docker/gotools/bin
