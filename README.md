@@ -40,7 +40,7 @@ sudo cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 sudo hwclock --systohc
 ```
 
-**重启**
+重启
 
 ### 安装基础工具：
 
